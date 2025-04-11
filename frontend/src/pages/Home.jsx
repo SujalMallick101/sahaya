@@ -11,7 +11,7 @@ export default function Home() {
           {/* Hero Section */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div>
-              <h1 className="text-3xl font-bold text-indigo-700">Welcome to WelfareConnect 🇮🇳</h1>
+              <h1 className="text-3xl font-bold text-indigo-700">Welcome to Sahaya 🇮🇳</h1>
               <p className="mt-2 text-gray-600 max-w-xl">
                 Simplifying access to education, healthcare, housing, and food security schemes by centralizing everything in one platform.
               </p>
