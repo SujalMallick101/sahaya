@@ -4,8 +4,10 @@ import {
   FileTextIcon,
   UserIcon,
   FolderIcon,
-  LogIn
+  LogIn,
+  Milestone,
 } from 'lucide-react';
+
 
 export default function Sidebar() {
   const location = useLocation();
@@ -15,7 +17,8 @@ export default function Sidebar() {
     { name: 'Schemes', path: '/schemes', icon: <FileTextIcon size={20} /> },
     { name: 'Profile', path: '/profile', icon: <UserIcon size={20} /> },
     { name: 'Vault', path: '/vault', icon: <FolderIcon size={20} /> },
-    { name: 'Login', path: '/login', icon: <LogIn size={20}/> }
+    { name: 'Login', path: '/login', icon: <LogIn size={20}/> },
+    { name: 'SignupPage', path: '/signup', icon: <Milestone  size={20}/> }
   ];
 
   return (

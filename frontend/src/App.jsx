@@ -10,6 +10,8 @@ import NotFound from './pages/NotFound';
 import Chatbot from './components/Chatbot';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import Login from './pages/Login';
+import SignupPage from './pages/SignupPage';
+import Otp from './pages/Otp';
 
 export default function App() {
   return (
@@ -26,6 +28,8 @@ export default function App() {
               <Route path="/vault" element={<Vault />} />
               <Route path="*" element={<NotFound />} />
               <Route path="/login" element={<Login/>} />
+              <Route path="/signup" element={<SignupPage/>} />
+              <Route path="/verify-otp" element={<Otp/>} />
             </Routes>
           </main>
         </div>

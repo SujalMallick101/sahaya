@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { useAuthStore } from '../store/useAuthStore';
 
 export default function Navbar() {
+  const { authUser, logout } = useAuthStore();
   const nav = useNavigate();
+
+  const handleLogout = () => {
+    logout();
+    nav('/login');
+  };
+
   return (
     <nav className="bg-indigo-600 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
@@ -27,18 +35,44 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Language Switcher Placeholder */}
-        <div className="flex items-center space-x-2">
-          <span className="text-sm">🌐</span>
-          <select className="bg-indigo-700 text-white text-sm px-2 py-1 rounded">
-            <option value="en">EN</option>
-            <option value="hi">हिंदी</option>
-            <option value="ta">தமிழ்</option>
-            <option value="bn">বাংলা</option>
-          </select>
-        </div>
+        {/* Language + Auth Buttons */}
+        <div className="space-x-7 hidden md:flex items-center">
+          {/* Language Switcher */}
+          <div className="flex items-center space-x-2">
+            <span className="text-sm">🌐</span>
+            <select className="bg-indigo-700 text-white text-sm px-2 py-1 rounded">
+              <option value="en">EN</option>
+              <option value="hi">हिंदी</option>
+              <option value="ta">தமிழ்</option>
+              <option value="bn">বাংলা</option>
+            </select>
+          </div>
 
-        <button onClick={() => { nav('/login')}}>Login</button>
+          {/* Auth Buttons */}
+          {authUser ? (
+            <button
+              onClick={handleLogout}
+              className="text-white hover:text-gray-200 transition px-4 py-1 rounded text-sm"
+            >
+              Logout
+            </button>
+          ) : (
+            <>
+              <button
+                onClick={() => nav('/login')}
+                className="text-white hover:text-gray-200 transition px-4 py-1 rounded text-sm"
+              >
+                Login
+              </button>
+              <button
+                onClick={() => nav('/signup')}
+                className="text-white hover:text-gray-200 transition px-4 py-1 rounded text-sm"
+              >
+                Signup
+              </button>
+            </>
+          )}
+        </div>
       </div>
     </nav>
   );
