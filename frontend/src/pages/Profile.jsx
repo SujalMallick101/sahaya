@@ -4,7 +4,7 @@ import Chatbot from '../components/Chatbot';
 
 export default function Profile() {
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gray-50 h-dvh">
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <main className="p-6">

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const nav = useNavigate();
   return (
     <nav className="bg-indigo-600 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
@@ -10,7 +12,7 @@ export default function Navbar() {
         </Link>
 
         {/* Navigation Links */}
-        <div className="space-x-4 hidden md:flex">
+        <div className="space-x-7 hidden md:flex">
           <Link to="/" className="hover:text-gray-200 transition">
             Home
           </Link>
@@ -35,6 +37,8 @@ export default function Navbar() {
             <option value="bn">বাংলা</option>
           </select>
         </div>
+
+        <button onClick={() => { nav('/login')}}>Login</button>
       </div>
     </nav>
   );

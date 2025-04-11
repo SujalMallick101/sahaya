@@ -1,6 +1,5 @@
 import Sidebar from '../components/Sidebar';
 import Chatbot from '../components/Chatbot';
-import LanguageSwitcher from '../components/LanguageSwitcher';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -28,9 +27,6 @@ export default function Home() {
                   </button>
                 </Link>
               </div>
-            </div>
-            <div className="mt-4 md:mt-0">
-              <LanguageSwitcher />
             </div>
           </div>
 

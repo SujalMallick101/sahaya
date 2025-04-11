@@ -9,6 +9,7 @@ import Vault from './pages/Vault';
 import NotFound from './pages/NotFound';
 import Chatbot from './components/Chatbot';
 import LanguageSwitcher from './components/LanguageSwitcher';
+import Login from './pages/Login';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/vault" element={<Vault />} />
               <Route path="*" element={<NotFound />} />
+              <Route path="/login" element={<Login/>} />
             </Routes>
           </main>
         </div>

@@ -25,7 +25,7 @@ const sampleSchemes = [
 
 export default function Schemes() {
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gray-50 h-dvh">
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <main className="p-6">
