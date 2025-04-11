@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "title": "Pradhan Mantri Awas Yojana",
+        "category": "Housing",
+        "description": "A flagship housing scheme by the Government of India to provide affordable housing to the urban and rural poor by 2022. It aims to promote home ownership through financial assistance and interest subsidies on home loans.",
+        "eligibility": "Indian citizens aged 18+ without a pucca house.",
+        "benefits": {
+            "monetary": "Subsidy up to ₹2.67 lakh on home loans.",
+            "others": "Priority in housing allotment, interest subsidy."
+        },
+        "schemeIntroduceDate": "2015-06-25"
+    },
+    {
+        "id": 2,
+        "title": "PM-KISAN",
+        "category": "Food Safety",
+        "description": "A direct income support scheme for landholding farmer families across India. The objective is to supplement their financial needs for procurement of inputs and other farming requirements, ensuring proper crop health and yield.",
+        "eligibility": "All landholding farmer families.",
+        "benefits": {
+            "monetary": "₹6000 per year in 3 installments.",
+            "others": "Direct transfer to bank accounts."
+        },
+        "schemeIntroduceDate": "2019-02-24"
+    },
+    {
+        "id": 3,
+        "title": "Ayushman Bharat Yojana",
+        "category": "HealthCare",
+        "description": "This health insurance scheme provides coverage of ₹5 lakh per family per year to economically weaker sections for secondary and tertiary care hospitalization, making healthcare accessible and affordable to the underprivileged.",
+        "eligibility": "Economically weaker families listed in SECC 2011.",
+        "benefits": {
+            "monetary": "Health cover up to ₹5 lakh per family per year.",
+            "others": "Cashless treatment at empanelled hospitals."
+        },
+        "schemeIntroduceDate": "2018-09-23"
+    },
+    {
+        "id": 4,
+        "title": "Pradhan Mantri Jan Dhan Yojana",
+        "category": "Financial Aid",
+        "description": "This financial inclusion scheme enables every Indian citizen, especially those from poor and unbanked sections, to open a zero-balance bank account with additional benefits like overdraft facility, insurance, and access to subsidies.",
+        "eligibility": "Any Indian citizen above 10 years of age.",
+        "benefits": {
+            "monetary": "Zero balance savings account, RuPay card.",
+            "others": "Overdraft, accidental insurance."
+        },
+        "schemeIntroduceDate": "2014-08-28"
+    },
+    {
+        "id": 5,
+        "title": "Ujjwala Yojana",
+        "category": "Women empowerment",
+        "description": "The scheme aims to safeguard the health of women and children by providing them with clean cooking fuel, reducing dependency on firewood and traditional cooking methods that contribute to respiratory and environmental issues.",
+        "eligibility": "Women from BPL households.",
+        "benefits": {
+            "monetary": "Financial assistance for LPG connection.",
+            "others": "Free first refill and stove."
+        },
+        "schemeIntroduceDate": "2016-05-01"
+    },
+    {
+        "id": 6,
+        "title": "Stand Up India Scheme",
+        "category": "Financial Aid",
+        "description": "This scheme facilitates bank loans between ₹10 lakh and ₹1 crore to women entrepreneurs and SC/ST individuals to help them establish greenfield enterprises in manufacturing, services, or trading sectors, thus promoting entrepreneurship.",
+        "eligibility": "SC/ST or woman entrepreneur aged 18+.",
+        "benefits": {
+            "monetary": "Loans between ₹10 lakh and ₹1 crore.",
+            "others": "Support for setting up enterprises."
+        },
+        "schemeIntroduceDate": "2016-04-05"
+    },
+    {
+        "id": 7,
+        "title": "Atal Pension Yojana",
+        "category": "Financial Aid",
+        "description": "Designed for workers in the unorganized sector, this pension scheme ensures a fixed monthly income post-retirement, thus securing their old age. Contributions vary depending on the age of joining and desired pension.",
+        "eligibility": "Indian citizens aged 18-40 with bank account.",
+        "benefits": {
+            "monetary": "Monthly pension of ₹1000–₹5000 after 60 years.",
+            "others": "Government co-contribution for early joiners."
+        },
+        "schemeIntroduceDate": "2015-06-01"
+    },
+    {
+        "id": 8,
+        "title": "Sukanya Samriddhi Yojana",
+        "category": "Women empowerment",
+        "description": "A small deposit savings scheme aimed at securing the future of girl children in India. It offers high interest and tax benefits to support their education and marriage expenses in a disciplined manner.",
+        "eligibility": "Parents of girl child below 10 years.",
+        "benefits": {
+            "monetary": "High interest savings, tax exemption.",
+            "others": "Funds usable for education/marriage."
+        },
+        "schemeIntroduceDate": "2015-01-22"
+    },
+    {
+        "id": 9,
+        "title": "Digital India",
+        "category": "Education",
+        "description": "A nationwide campaign to transform India into a digitally empowered society and knowledge economy. It aims to improve online infrastructure, increase internet connectivity, and bring government services to citizens electronically.",
+        "eligibility": "Open to all Indian citizens.",
+        "benefits": {
+            "monetary": "Subsidies on digital services.",
+            "others": "Improved internet access, e-governance."
+        },
+        "schemeIntroduceDate": "2015-07-01"
+    },
+    {
+        "id": 10,
+        "title": "Skill India Mission",
+        "category": "Education",
+        "description": "This initiative aims to train over 40 crore Indians in different skills by 2022. It includes various programs to equip youth with employable skills and encourage entrepreneurship through industry-relevant skill development.",
+        "eligibility": "Unemployed youth aged 15-59.",
+        "benefits": {
+            "monetary": "Free training and stipends.",
+            "others": "Job placement assistance."
+        },
+        "schemeIntroduceDate": "2015-07-15"
+    },
+    {
+        "id": 11,
+        "title": "National Education Policy (NEP) 2020",
+        "category" : "Education",
+        "description": "An education reform aimed at transforming India’s educational landscape by focusing on holistic, multidisciplinary learning, flexibility in subject choices, and improved vocational training to build a stronger foundation for students from early childhood to higher education.",
+        "eligibility": "Students and educational institutions in India.",
+        "benefits": {
+            "monetary": "Increased funding for education reforms.",
+            "others": "Flexible curriculum, skill-based learning."
+        },
+        "schemeIntroduceDate": "2020-07-29"
+    },
+    {
+        "id": 12,
+        "title": "National Digital Health Mission",
+        "category" : "HealthCare",
+        "description": "A mission to create a digital health ecosystem by providing each citizen with a unique Health ID, enabling easy access and sharing of health records, and promoting efficiency and transparency in healthcare services delivery.",
+        "eligibility": "All Indian citizens.",
+        "benefits": {
+            "monetary": "Reduced healthcare costs via digital access.",
+            "others": "Digital health records, e-prescriptions."
+        },
+        "schemeIntroduceDate": "2020-08-15"
+    },
+    {
+        "id": 13,
+        "title": "Beti Bachao Beti Padhao",
+        "category" : "Women empowerment",
+        "description": "A tri-ministerial effort aimed at addressing the declining child sex ratio, promoting the education and empowerment of the girl child, and changing societal attitudes towards girls through awareness campaigns and education-related incentives.",
+        "eligibility": "Families with girl children.",
+        "benefits": {
+            "monetary": "Incentives for girl child education.",
+            "others": "Awareness, legal protection, support services."
+        },
+        "schemeIntroduceDate": "2015-01-22"
+    }
+]
